@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.1.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev www",
+    "docs:build": "vitepress build www",
+    "docs:preview": "vitepress preview www"
+  },
+  "dependencies": {
+    "vue": "^3.4.23"
+  }
+}
