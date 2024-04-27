@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Wave｜简单易用的自动化桌面软件
 navbar: false
 pageClass: home-page-container
 ---

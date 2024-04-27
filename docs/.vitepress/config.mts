@@ -4,12 +4,22 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   markdown: {
     image: {
-      lazyLoading: true
-    }
+      lazyLoading: true,
+    },
   },
-  title: "Wave Docs",
-  description: "A VitePress Site",
-  head: [['link', { rel: 'icon', href: '/icon.ico' }]],
+  title: "Wave",
+  description: "简单易用的自动化桌面软件",
+  head: [
+    ["link", { rel: "icon", href: "/icon.ico" }],
+    ["meta", { name: "author", content: "0x3lang" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content: "web3, 撸毛, 自动化交互, galxe交互, 指纹浏览器自动化",
+      },
+    ],
+  ],
   themeConfig: {
     logo: "/icon.png",
     // https://vitepress.dev/reference/default-theme-config
@@ -20,7 +30,7 @@ export default defineConfig({
       {
         text: "软件简介",
         items: [
-          { text: "关于Wave", link: "/about" },
+          { text: "什么是Wave?", link: "/about" },
           { text: "安装使用", link: "/install" },
         ],
       },
@@ -36,11 +46,9 @@ export default defineConfig({
         ],
       },
       {
-        text: "项目说明",
+        text: "项目介绍",
         collapsed: false,
-        items: [
-          { text: "项目一", link: "/project/demo" }
-        ],
+        items: [{ text: "项目一", link: "/project/demo" }],
       },
       {
         text: "帮助指南",
@@ -55,7 +63,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/3lang3/wave-desktop-release" },
+      {
+        icon: "github",
+        link: "https://github.com/3lang3/wave-desktop-release",
+      },
       { icon: "twitter", link: "https://twitter.com/0x3lang" },
     ],
   },
