@@ -2,10 +2,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./www/**/*.js",
-    "./www/**/*.ts",
-    "./www/**/*.vue",
-    "./www/**/*.md",
+    "./docs/**/*.js",
+    "./docs/**/*.ts",
+    "./docs/**/*.vue",
+    "./docs/**/*.md",
   ],
   options: {
     safelist: ["html", "body"],
