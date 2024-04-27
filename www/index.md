@@ -1,25 +1,19 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: "Wave使用文档"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+navbar: false
+pageClass: home-page-container
 ---
 
+<style lang="less">
+.home-page-container {
+  .VPHome { margin-bottom: 0}
+  .container { padding:0; max-width: 100% }
+}
+</style>
+
+<script setup>
+import HomePage from './components/home-page.vue'
+</script>
+
+<HomePage />
