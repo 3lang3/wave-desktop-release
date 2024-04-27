@@ -2,15 +2,15 @@
 
 ## 软件下载
 
-### Wave 官方发布地址
+### Wave官方发布地址
 
 **https://github.com/3lang3/wave-desktop-release/releases/latest**
 
 ### 安装包
 
 - [Windows](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS Inter 芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS M 芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
+- [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
+- [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 
 ### 提示
 
@@ -35,4 +35,4 @@
 
 打开软件后，输入授权码，点击登录
 
-![wave login](/ss/wave-login.png)
+![login](/ss/wave-login.png)
