@@ -12,12 +12,11 @@
 - [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 - [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 
-### 提示
+::: danger 提示
+请勿从非官方渠道下载安装包, 也不要使用他人分享的安装包
+:::
 
-- **请勿下非官方渠道的安装包**
-- **请勿使用他人分享的安装包**
-
-> 每个版本都有唯一`sha512`码, 请确保下载的安装包是由 Wave 官方发布的，以免造成不必要的损失
+每个版本都有唯一`sha512`码, 请确保下载的安装包是由 Wave 官方发布的，以免造成不必要的损失
 
 ## 软件安装
 
