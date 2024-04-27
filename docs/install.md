@@ -4,7 +4,7 @@
 
 ### Wave 官方发布地址
 
-**https://github.com/3lang3/wave-desktop-release/releases**
+**https://github.com/3lang3/wave-desktop-release/releases/latest**
 
 ### 安装包
 

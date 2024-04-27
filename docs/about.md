@@ -11,14 +11,14 @@ const members = [
       { icon: 'twitter', link: 'https://twitter.com/0x3lang' }
     ]
   },
-  {
-    avatar: 'https://pbs.twimg.com/profile_images/1771570783682527232/ddwOXA7E_400x400.jpg',
-    name: '0xFeng',
-    title: 'COO',
-    links: [
-      { icon: 'twitter', link: 'https://twitter.com/0x0xFeng' }
-    ]
-  }
+  // {
+  //   avatar: 'https://pbs.twimg.com/profile_images/1771570783682527232/ddwOXA7E_400x400.jpg',
+  //   name: '0xFeng',
+  //   title: 'COO',
+  //   links: [
+  //     { icon: 'twitter', link: 'https://twitter.com/0x0xFeng' }
+  //   ]
+  // }
 ]
 </script>
 
