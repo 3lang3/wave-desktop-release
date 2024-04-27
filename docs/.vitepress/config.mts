@@ -45,6 +45,7 @@ export default defineConfig({
       {
         text: "帮助指南",
         items: [
+          { text: "软件更新", link: "/help-upgrade" },
           { text: "运行日志导出", link: "/help-log" },
           { text: "模版文件", link: "/help-template" },
           { text: "代理关联", link: "/help-proxy" },
