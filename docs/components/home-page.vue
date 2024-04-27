@@ -18,9 +18,9 @@ const { go } = useRouter()
         <div class="lg:text-7xl text-4xl font-medium mb-5">Made for Efficiency</div>
         <div class="lg:text-lg text-sm mb-10">简单易用的自动化桌面软件, 支持win和mac</div>
         <div class="flex space-x-5">
-          <a href="https://github.com/3lang3/wave-desktop-release/releases/latest" target="_blank"
+          <div v-on:click="go('/install#安装包')"
             class="flex items-center justify-center rounded-xl text-md bg-[#4f40ff] text-white font-bold px-5 py-3 cursor-pointer !no-underline hover:!text-white visited:text-white">
-            软件下载</a>
+            软件下载</div>
           <div
             class="flex items-center justify-center rounded-xl text-md bg-transparent border text-white font-bold px-5 py-3 cursor-pointer"
             v-on:click="go('/document')">
