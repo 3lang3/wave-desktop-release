@@ -1,6 +1,6 @@
-.vitepress/dist
-.vitepress/cache
-.vitepress/cache/**/*
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/cache/**/*
 pnpm-lock.yaml
 node_modules
 .DS_Store
