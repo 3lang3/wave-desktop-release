@@ -9,8 +9,8 @@
 ### 安装包
 
 - [Windows](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
+- [MacOS Inter 芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
+- [MacOS M 芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 
 ### 提示
 
@@ -25,9 +25,9 @@
 
 ## 软件登录
 
-### 开启代理
-
-确保已打开代理软件的**增强模式(TON MODE)**
+::: warning 提示
+**确保代理软件已开启增强模式(TON MODE)**, 否则无法连接到 WAVE API
+:::
 
 <!-- > 推荐的代理软件 https://www.clashforwindows.net/ -->
 
