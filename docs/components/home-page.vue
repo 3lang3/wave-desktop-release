@@ -63,7 +63,7 @@ const { go } = useRouter()
             软件下载</div>
           <div
             class="flex items-center justify-center rounded-xl text-md bg-transparent border-2 text-white font-bold px-5 py-3 cursor-pointer"
-            v-on:click="go('/document')">
+            v-on:click="go('/install')">
             使用文档</div>
         </div>
       </div>
