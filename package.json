@@ -8,9 +8,9 @@
     "vitepress": "^1.1.0"
   },
   "scripts": {
-    "docs:dev": "vitepress dev www",
-    "docs:build": "vitepress build www",
-    "docs:preview": "vitepress preview www"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "vue": "^3.4.23"
