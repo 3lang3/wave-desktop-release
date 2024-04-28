@@ -5,7 +5,7 @@
 ## 解码相关配置
 
 - capSolver 密钥: 验证码解码器，推特解风控依赖此密钥, [购买连接](https://dashboard.capsolver.com/passport/register?inviteCode=sIgarOnCZkoO)
-- nocaptcha 密钥: discord 协议相关业务需要此密钥, [购买连接](https://dashboard.capsolver.com/passport/register?inviteCode=sIgarOnCZkoO)
-- yesCaptcha 密钥: 部分 discord 频道验证破解需要此密钥, [购买连接](https://dashboard.capsolver.com/passport/register?inviteCode=sIgarOnCZkoO)
+- nocaptcha 密钥: discord 协议相关业务需要此密钥, [购买连接](https://www.nocaptcha.io/register?c=M3KYU5)
+- yesCaptcha 密钥: 部分 discord 频道验证破解需要此密钥, [购买连接](https://yescaptcha.com/i/of0Uy9)
 
 ![设置模块](/ss/wave-setting.png)
