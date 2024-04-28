@@ -12,7 +12,7 @@
 - [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 - [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
 
-::: danger 提示
+::: warning
 请勿从非官方渠道下载安装包, 也不要使用他人分享的安装包
 :::
 
@@ -24,7 +24,7 @@
 
 ## 软件登录
 
-::: warning 提示
+::: warning
 登录软件时**确保代理软件已开启增强模式(TON MODE)**, 否则无法连接到 WAVE API
 :::
 
