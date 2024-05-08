@@ -8,9 +8,9 @@
 
 ### 安装包
 
-- [Windows](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
-- [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-0.0.0-dev.4-setup.exe)
+- [Windows](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-x64.exe)
+- [MacOS Inter芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-x64.dmg)
+- [MacOS M芯片](https://github.com/3lang3/wave-desktop-release/releases/latest/download/wave-desktop-arm64.dmg)
 
 ::: warning
 请勿从非官方渠道下载安装包, 也不要使用他人分享的安装包
