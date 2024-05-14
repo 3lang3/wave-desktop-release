@@ -3,7 +3,7 @@
 Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道验证
 
 ::: warning
-使用协议操作 Discord 帐户存在被封禁/风控/Token 失效等风险, 请自行评估使用
+使用协议操作 Discord 帐户存在被封禁/风控/Token 失效等风险, 请自行评估后使用
 :::
 
 ![galxe](/ss/wave-galxe.png)
