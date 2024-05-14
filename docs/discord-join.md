@@ -1,9 +1,9 @@
-# Discord 加群(Beta)
+# Discord 加群
 
 Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道验证
 
 ::: warning
-使用此模块导致 Discord 帐户被封禁/风控/Token 失效等问题, Wave 不承担任何责任
+使用协议操作 Discord 帐户存在被封禁/风控/Token 失效等风险, 请自行评估使用
 :::
 
 ![galxe](/ss/wave-galxe.png)
