@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lastUpdated: true,
   markdown: {
     image: {
       lazyLoading: true,
@@ -49,7 +50,7 @@ export default defineConfig({
       {
         text: "项目介绍",
         collapsed: false,
-        items: [{ text: "项目一", link: "/project/demo" }],
+        items: [{ text: "Initia测试网", link: "/project/initia" }],
       },
       {
         text: "帮助指南",
