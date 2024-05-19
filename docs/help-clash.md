@@ -8,6 +8,8 @@
 
 ### Windows
 
+- 对Clash不熟悉的建议直接使用快连VPN
+
 - [Clash for Windows] 需要打开`TUN Mode`
 
 > 开启 `TUN Mode` 需要先安装 `Service Mode`, 如果开启后依然无法使用, 请尝试去设置中开启 `Lightweight Mode`
