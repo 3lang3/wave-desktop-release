@@ -1,6 +1,6 @@
 # Initia 测试网交互
 
-![Initia测试网](/project/project_initia_overview.png)
+![Initia测试网](/project/initia/project_initia_overview.png)
 
 ## 步骤说明
 
@@ -27,3 +27,28 @@
 软件界面, 购选 `日常领取XP` 选项, 导入模版文件, 配置参数, 点击 `开始` 按钮, 等待交互完成.
 
 > 建议参数: 并发数: 15, 报错重试: 2, 队列重复: 3, 每 100 个账号大概需要 10 分钟
+
+### 邀请码任务
+
+<br />
+
+#### 获取邀请码
+
+勾选 `✨获取邀请码` 选项, 导入账号文件, 配置参数, 点击 `开始` 按钮, 等待日志输出邀请码, 保存到文件, 参考下图
+
+导出日志, 保存到文件, 参考下图
+![Initia测试网](/project/initia/initia_save_code.png)
+
+找到日志文件中的邀请码, 复制, 参考下图
+![Initia测试网](/project/initia/initia_code_source.png)
+
+将复制的邀请码, 保存到一个 txt 文件中, 一行一个, 参考下图
+![Initia测试网](/project/initia/initia_code_txt.png)
+
+<br />
+
+#### 完成任务
+
+- 勾选 `填写邀请码任务` 选项, 上传账号文件, 上传邀请码文件, 配置参数, 点击 `开始` 按钮, 等待交互完成.
+
+![Initia测试网](/project/initia/initia_refcode.png)
