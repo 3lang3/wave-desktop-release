@@ -50,7 +50,10 @@ export default defineConfig({
       {
         text: "项目介绍",
         collapsed: false,
-        items: [{ text: "Initia测试网", link: "/project/initia" }],
+        items: [
+          { text: "Initia测试网", link: "/project/initia" },
+          { text: "MorphL2测试网", link: "/project/morphl2" },
+        ],
       },
       {
         text: "帮助指南",
