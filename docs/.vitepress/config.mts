@@ -73,7 +73,7 @@ export default defineConfig({
         icon: "github",
         link: "https://github.com/3lang3/wave-desktop-release",
       },
-      { icon: "twitter", link: "https://twitter.com/0x3lang" },
+      { icon: "twitter", link: "https://x.com/Wave_Tool" },
     ],
   },
 });

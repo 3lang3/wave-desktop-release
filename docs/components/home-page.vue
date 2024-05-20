@@ -70,16 +70,15 @@ const { go } = useRouter()
             使用文档</div>
         </div>
       </div>
-      <div class="flex flex-col-reverse md:flex-row items-center justify-center uppercase w-full">
+      <div class="flex flex-col-reverse md:flex-row items-center justify-between uppercase w-full">
         <div class="flex items-center gap-2">made by
           <a href="https://twitter.com/0x3lang" target="_blank"
-            class="hover:underline cursor-pointer underline-offset-4 text-white hover:!text-white visited:text-white">0x3lang</a>
+            class="hover:underline cursor-pointer underline-offset-4 !text-white hover:!text-white visited:text-white">0x3lang</a>
         </div>
-        <!-- <div class="flex items-center">
-          <div v-for="nav in theme.nav" class="hover:underline cursor-pointer underline-offset-4 ml-5 first:ml-0"
-            :key="nav.link" v-on:click="go(nav.link)">{{
-            nav.text }}</div>
-        </div> -->
+        <div class="flex items-center">
+          <a href="https://twitter.com/Wave_Tool" target="_blank"
+            class="hover:underline cursor-pointer underline-offset-4 !text-white hover:!text-white visited:text-white">Wave_Tool</a>
+        </div>
       </div>
     </div>
   </div>
