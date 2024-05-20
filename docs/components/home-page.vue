@@ -57,8 +57,12 @@ const { go } = useRouter()
         <div class="lg:text-7xl text-4xl font-medium mb-5">Made for Efficiency</div>
         <div class="lg:text-lg text-sm mb-10">简单易用的自动化桌面软件, 支持Win和MacOS</div>
         <div class="flex space-x-5">
-          <div v-on:click="go('/install#安装包')"
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScBh-MfmnxSHBu88vGkCISUUEOWL8_yvOpNQpxnyQ9d4ng1OQ/viewform"
+            target="_blank"
             class="flex items-center justify-center rounded-xl text-md bg-[#4f40ff] text-white font-bold px-5 py-3 cursor-pointer !no-underline hover:!text-white visited:text-white">
+            付费加入</a>
+          <div v-on:click="go('/install#安装包')"
+            class="flex items-center justify-center rounded-xl text-md bg-transparent border-2 text-white font-bold px-5 py-3 cursor-pointer">
             软件下载</div>
           <div
             class="flex items-center justify-center rounded-xl text-md bg-transparent border-2 text-white font-bold px-5 py-3 cursor-pointer"
