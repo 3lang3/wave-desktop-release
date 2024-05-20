@@ -35,10 +35,7 @@ QuickNode 领水服务不稳定,批量前先单号测试
 
 ### 按需配置参数
 
-- `代币地址`: 此处需要分发的是`Gas`币, 留空即可
+- `代币地址`: 此处需要分发的是`Gas`币, 
 - `分发金额`: 默认分发金额, 如果模版文件内填写了`amount`, 则使用模版文件内的金额
 
 ![Initia测试网](/project/morphl2/airdrop_config.png)
-
-成功输出日志, 参考下图
-![Initia测试网](/project/morphl2/airdrop_log.png)
