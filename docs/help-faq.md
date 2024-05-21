@@ -1,0 +1,100 @@
+# 常见问题
+
+## 代理问题
+
+### 代理管理模块
+
+::: tip
+一定不要填错代理格式，错误的代理格式将导致后续所有请求都无法正常访问
+:::
+
+支持的导入格式是`地址:端口`或者`地址:端口:用户名:密码`和`地址:端口:用户名:密码:协议`, 协议类型`http`、`socks`、`socks5`，默认为`http`
+
+#### 白名单
+
+代理无法连通的情况下检查是否在服务商后台开启白名单, **建议不开**, 降低问题排查难度
+
+#### 动态代理
+
+支持动态代理, 同样确保格式正确(同上)
+
+> 目前测试通过的有`ipidea.net`, 其他的自己先试试, 不行找管理员
+
+#### 并发太高导致请求大面积失效
+
+- 请降低并发数, 一般建议`10`以下
+
+###
+
+## 网络问题
+
+绝大部分网络问题都是代理和本机梯子软件设置问题，请仔细检查[本机代理 🪜 软件设置](#本机代理-🪜-软件设置)和[代理管理模块](#代理管理模块)
+
+### socket hang up 错误
+
+`socket hang up`请求耗时过长而导致的, 一般是代理网络不稳定导致的
+
+<img src="/faq/request_timeout.png" width="400" />
+
+### request timeout xxxxms 错误
+
+`timeout`请求超时, 一般是目标网站响应慢、代理网络不稳定等原因
+
+<img src="/faq/request_timeout.png" width="400" />
+
+<img src="/faq/timeout_2.png" width="400" />
+
+### Unexpected xxxx 错误'
+
+`Unexpected xxxx is not vail JSON`请求结果格式不正确，如果**大面积出现请联系管理员**排查
+
+<img src="/faq/unexpected_json.png" width="400" />
+
+### TLS connection 错误
+
+`TLS connection`错误 请确保代理软件已经开启`TUN Mode`或`增强模式`, 也可以尝试切换网络环境或者重启代理软件
+
+<img src="/faq/tls_error.png" width="400" />
+
+## 本机代理 🪜 软件设置
+
+::: warning
+对`Clash`不熟悉的建议直接使用`快连VPN`
+:::
+
+### `Mac`用户请确保`ClashX`已经启动, 并且开启增强模式
+
+<img src="/faq/mac_clash_enhance.png" width="300" />
+
+### `Clash for Windows`需要打开`TUN Mode`
+
+> 启用`TUN Mode`需要先安装`Service Mode`, 如开启后依然无法使用, 请尝试去设置中开启`Lightweight Mode`
+
+`Service Mode`旁边地球标志为绿色即为开启成功
+
+<img src="/other/clash_1.png" width="450" />
+
+`Lightweight Mode`开启示意图
+
+<img src="/other/clash_2.png" width="450" />
+
+## 推特 Discord 风控问题
+
+- 代理质量: 一些代理商的`ip`已经烂完了，点名`webshare`, 推特相关协议操作时千万不要用这个代理，秒封(上一秒关注,下一秒封口)，想要长期养好的朋友一定要找到`高质量的代理`商
+- 账号行为可能也会导致风控，比如推特只关注,点赞,转发等, Dc 短时间加入多个服务器等都会触发风控,导致账号被封或者`token`失效
+
+> 推特风控很严, 新号老号都有可能被封, dc 新号一定不要随意变换代理`IP`不然`token`铁定失效, 一句话, 高质量的代理是稳定不被风控的关键
+
+## 安装问题
+
+### Mac 提示无法打开
+
+- 部分`Mac`用户安装时可能会遇到无法打开的问题, 这是因为`Mac`系统对于未知来源的应用有安全限制, 需要前往设置手动打开
+
+<img src="/faq/mac_install_alert.png" width="200" />
+
+### Windows 用户提示
+
+- `Windows`系统对于装机量少的软件有未知来源的应用有安全限制, 直接点击运行即可
+
+<img src="/faq/win_install_alert.png" width="320" />
