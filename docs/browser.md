@@ -1,6 +1,18 @@
 # 指纹浏览器模块
 
-使用wave的指纹浏览器模块, 可以轻松完成推特, Discord等繁琐重复的操作, 还能一键进行推特日常养号, 推特解风控等操作, 支持AdsPower和比特浏览器
+使用 wave 的指纹浏览器模块, 可以轻松完成推特, Discord 等繁琐重复的操作, 还能一键进行推特日常养号, 推特解风控等操作, 支持 AdsPower 和比特浏览器
+
+## 准备工作
+
+确保对应指纹浏览器设置正确, 并且已经打开
+
+### AdsPower 设置
+
+<img src="/other/ads_proxy_setting.png" />
+
+### BitBrowser 设置
+
+<img src="/other/bit_proxy_setting.png" />
 
 ## 自定义动作
 
@@ -8,7 +20,7 @@
 - 支持推文评论
 - 支持发推文
 - 支持用户关注
-- 支持Discord消息发送
+- 支持 Discord 消息发送
 
 ![script](/ss/wave-browser-custom.png)
 
