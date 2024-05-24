@@ -51,7 +51,7 @@
 
 `socket hang up`请求耗时过长而导致的, 一般是代理网络不稳定导致的
 
-<img src="/faq/request_timeout.png" width="400" />
+<img src="/faq/socket_hangup.png" width="400" />
 
 ### request timeout xxxxms 错误
 
