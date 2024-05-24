@@ -79,6 +79,18 @@
 
 <img src="/faq/tls_error.png" width="400" />
 
+### Request faild with status code 429
+
+`429`是请求频率过高导致的, 多切换几次`IP`, 降低并发数后再试, 建议`10`以下
+
+<img src="/faq/r_429.png" width="400" />
+
+### Request faild with status code 403
+
+`403`是请求被拒绝, 一般是代理`IP`被封, 请更换`IP`后再试, 多尝试几次
+
+<img src="/faq/r_403.png" width="400" />
+
 ## 本机代理 🪜 软件设置
 
 ::: warning
