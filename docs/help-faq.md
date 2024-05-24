@@ -172,6 +172,9 @@
 
 目前只支持单设备使用, 需要更换登录设备的, 请联系管理员
 
-## discord加群大面Unkown Message错误
+## discord加群失败
 
-大概率是`hcapcha`更新了验证图片`noCaptcha`还未及时更新导致的, 只能等待`noCaptcha`更新或者去它官网找客服
+出现大面积`Unknow Message`时, 请检查以下几点:
+
+- `hcapcha`更新了验证图片`noCaptcha`还未及时更新导致的, 只能等待`noCaptcha`更新或者去它官网找客服
+- `IP代理`质量太差，短时间大量账号加群被`discord`标记，换个`IP`稍等后再试
