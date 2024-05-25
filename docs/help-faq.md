@@ -91,6 +91,12 @@
 
 <img src="/faq/r_403.png" width="400" />
 
+### Parse Error: Invalid header toker
+
+代理拒绝访问, 请检查代理是否正确, 一般是代理格式错误，或者代理服务那边白名单没正确配置
+
+<img src="/faq/proxy_invalid_header.png" width="400" />
+
 ## 本机代理 🪜 软件设置
 
 ::: warning
