@@ -7,4 +7,4 @@ Wave 是专为快速、批量执行自动化脚本而设计的桌面软件, 同�
 ## Wave 社群
 
 - [X](https://x.com/Wave_Tool) 
-- [Github](https://github.con/3lang3/wave-desktop-release)
+- [Github](https://github.com/3lang3/wave-desktop-release)
