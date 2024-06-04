@@ -53,6 +53,7 @@ export default defineConfig({
         items: [
           { text: "Initia测试网", link: "/project/initia" },
           { text: "MorphL2测试网", link: "/project/morphl2" },
+          { text: "Fuel测试网", link: "/project/fuel" },
         ],
       },
       {
