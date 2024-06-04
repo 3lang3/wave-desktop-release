@@ -10,7 +10,7 @@
 
 ### 领水(FuelEth)
 
-设置`noCaptchaKey`或者`yesCaptchaKey`(领水接口打码服务), 单次`0.002eth`, 每`24`小时可以领取一次
+设置`noCaptchaKey`或者`yesCaptchaKey`(领水接口打码服务), 单次`0.002eth`, 每`24`小时可以领取一次，需要配置代理
 
 > 建议参数: 并发数: 10, 报错重试: 2, 队列重复: 3
 
