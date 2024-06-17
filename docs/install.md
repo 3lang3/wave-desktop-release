@@ -22,6 +22,11 @@
 
 ::: warning
 登录软件时**确保代理软件已开启增强模式(TON MODE)**, 否则无法连接到 WAVE API
+
+:::
+
+::: warning
+`Windows`用户登陆后显示插件更新失败可以尝试使用管理员权限运行软件
 :::
 
 <!-- > 推荐的代理软件 https://www.clashforwindows.net/ -->
