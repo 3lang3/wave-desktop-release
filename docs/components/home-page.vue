@@ -59,7 +59,7 @@ const { go } = useRouter()
         <div class="flex space-x-5">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScBh-MfmnxSHBu88vGkCISUUEOWL8_yvOpNQpxnyQ9d4ng1OQ/viewform"
             target="_blank"
-            class="flex items-center justify-center rounded-xl text-md bg-[#4f40ff] text-white font-bold px-5 py-3 cursor-pointer !no-underline hover:!text-white visited:text-white">
+            class="flex items-center justify-center rounded-xl text-md bg-[#4f40ff] !text-white font-bold px-5 py-3 cursor-pointer !no-underline hover:!text-white visited:text-white">
             付费加入</a>
           <div v-on:click="go('/install#安装包')"
             class="flex items-center justify-center rounded-xl text-md bg-transparent border-2 text-white font-bold px-5 py-3 cursor-pointer">
