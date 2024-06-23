@@ -17,6 +17,8 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 - `twitterToken` 推特 token
 - `proxy` 代理地址
 - `survey` 问卷答案, 一行一个, 多个答案换行分隔
+- `bindBitcoin` 绑定btc地址, 执行`通过`交互时自动绑定
+- `bindBitcoinSignet` 绑定btc测试网地址, 执行`通过`交互时自动绑定
 
 ## 获取任务信息
 
