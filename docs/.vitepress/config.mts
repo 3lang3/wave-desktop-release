@@ -42,6 +42,7 @@ export default defineConfig({
           { text: "脚本模块", link: "/script" },
           { text: "指纹浏览器模块", link: "/browser" },
           { text: "工具模块", link: "/tool" },
+          { text: "zealy模块", link: "/zealy" },
           { text: "discord加群", link: "/discord-join" },
           { text: "代理管理", link: "/proxies" },
           { text: "设置", link: "/setting" },
