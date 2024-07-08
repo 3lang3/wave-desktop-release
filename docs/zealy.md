@@ -65,7 +65,10 @@
 
 ![zealy running](/zealy/custom_anwser2.png)
 
-> 任务有多问题时, 答案用`----`分隔(四个横杠), 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/00c4ded6-8a92-4c86-a0cb-17d799e554a3)
+## 一个任务存在多个问题
+
+- 任务有多问题时, 答案用`----`分隔(四个横杠), 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/00c4ded6-8a92-4c86-a0cb-17d799e554a3)
+- 多问题中有可自动交互的问题可跳过, 只需要填写需要手动交互的问题答案即可, 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/08914226-4900-43f1-bfcf-1b7b52afd391)
 
 ## 需要上传文件/截图的任务
 
@@ -80,4 +83,4 @@
 
 程序会自动判断需要什么类型的地址，根据软件提示在模版文件中新增对应列即可后填入地址即可
 
-> 部分任务提示绑定`other`钱包地址, 请去zealy任务详情页面手动确定是哪种钱包
+> 部分任务提示绑定`other`钱包地址, 请去`zealy`任务详情页面手动确定是哪种钱包
