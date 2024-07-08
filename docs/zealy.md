@@ -26,6 +26,8 @@
 
 复制任务链接, 填入顶部输入框, 点击确认按钮,支持输入邀请链接
 
+> 例: https://zealy.io/cw/busai/questboard
+
 > 例: https://zealy.io/cw/mantisbreakfree/questboard
 
 > 例: https://zealy.io/cw/mantisbreakfree/invite/t369XzWPGZuvmqs6h-cez
@@ -46,7 +48,7 @@
 
 > zealy 任务是解锁制，需要按顺序完成
 
-### 设置统一答案
+## 设置统一答案
 
 左侧详情区域，任务下方可以设置答案，设置后所有账号都会使用这个答案提交
 
@@ -54,7 +56,7 @@
 
 > 任务有多问题时, 答案用`----`分隔(四个横杠), 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/00c4ded6-8a92-4c86-a0cb-17d799e554a3)
 
-### 单独设置答案
+## 单独设置答案
 
 支持给每个账号单独设置答案, 步骤如下:
 
@@ -64,3 +66,18 @@
 ![zealy running](/zealy/custom_anwser2.png)
 
 > 任务有多问题时, 答案用`----`分隔(四个横杠), 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/00c4ded6-8a92-4c86-a0cb-17d799e554a3)
+
+## 需要上传文件/截图的任务
+
+- 打开浏览器开发者工具, 切换到`network`选项卡
+- 在对应任务中上传文件/截图，在`network`中找到对应请求(搜索`files`)
+- `Preview`中的`url`内容就是我们需要的内容
+- 复制`url`内容, 回到软件界面, 在对应任务下方输入框填入`url`即可,或者在模版中新建一列, 填入任务名称, 此列填入对应`url`即可
+
+![zealy running](/zealy/file.jpg)
+
+## 填写钱包地址
+
+程序会自动判断需要什么类型的地址，根据软件提示在模版文件中新增对应列即可后填入地址即可
+
+> 部分任务提示绑定`other`钱包地址, 请去zealy任务详情页面手动确定是哪种钱包
