@@ -31,7 +31,7 @@
 [下载源码](https://github.com/3lang3/cycletls-server/archive/refs/heads/main.zip)解压，进入项目目录，执行如下命令
 
 ```bash
-npm i -g tyarn
+npm i -g yarn tyarn
 tyarn
 npm start
 ```
