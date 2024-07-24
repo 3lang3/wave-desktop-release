@@ -1,12 +1,14 @@
 # Zealy 模块
 
+:::info
+zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 `yesCaptchaKey`, zealy 场景建议使用`capSolver`解码服务,成功率更高
+:::
+
 - 支持批量起号
 - 自动绑定/更新社交账号
 - 自动交互活动任务并领取奖励
 
 ![zealy](/zealy/overview.png)
-
-> zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 `yesCaptchaKey`
 
 ## 模版文件
 
