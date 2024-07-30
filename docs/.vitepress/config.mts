@@ -62,7 +62,7 @@ export default defineConfig({
         items: [
           { text: "常见问题", link: "/help-faq" },
           { text: "软件更新", link: "/help-upgrade" },
-          { text: "本地转发服务", link: "/help-cycletls-server" },
+          // { text: "本地转发服务", link: "/help-cycletls-server" },
           { text: "运行日志导出", link: "/help-log" },
           { text: "模版文件", link: "/help-template" },
           { text: "代理关联", link: "/help-proxy" },

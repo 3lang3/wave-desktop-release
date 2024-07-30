@@ -20,9 +20,12 @@
 - 支持推文评论
 - 支持发推文
 - 支持用户关注
-- 支持 Discord 消息发送
+- 支持`discord`消息发送
+- 支持提取`twitter`、`discord` token
 
 ![script](/ss/wave-browser-custom.png)
+
+![script](/ss/temp.png)
 
 ## 银河任务
 
