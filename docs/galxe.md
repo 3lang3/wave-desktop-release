@@ -20,8 +20,7 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 - `bindBitcoin` 绑定btc地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindBitcoinSignet` 绑定btc测试网地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindSui` 绑定sui地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
-- `bindAptos` 绑定aptos地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
-- `bindMovementAptos` 绑定movementAptos地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
+- `bindAptos` 绑定aptos和movementAptos地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 
 ## 获取任务信息
 
