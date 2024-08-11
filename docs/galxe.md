@@ -26,8 +26,10 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 - `twitterToken` 推特 token
 - `proxy` 代理地址
 - `survey` 问卷答案, 一行一个, 多个答案换行分隔
-  - > 全是选择题的问卷, 答案格式为 `[x,x,x]`, 例如 `[a,b,c]`
+  - > 全是选择题的问卷, 答案格式为 `[x,x,x]`, 例如 `[a,a,a]`
   <img src="/ss/survey_choose.png" width="400px" />
+  模版文件:
+  <img src="/ss/survey_temp.png" width="400px" />
 - `bindBitcoin` 绑定 btc 地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindBitcoinSignet` 绑定 btc 测试网地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindSui` 绑定 sui 地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
