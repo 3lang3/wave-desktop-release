@@ -55,7 +55,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 
 ## 银河账号绑定(协议方式)
 
-- 支持银河账号绑定邮箱(需要模版文件填写`email`字段)
+- 支持银河账号绑定邮箱(需要模版文件填写`email`字段),不支持`gmail`邮箱
 - 支持银河账号绑定`Twitter`(需要模版文件填写`twitterToken`字段)
 - 支持银河账号绑定`Discord`(需要模版文件填写`discordToken`字段)
 - 支持银河账号绑定`Telegram`(需要模版文件填写`tgTdata`字段), [tdata 说明](#telegram-tdata-说明)

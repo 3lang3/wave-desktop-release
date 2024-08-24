@@ -12,7 +12,7 @@
 - `privateKey` 钱包私钥
 - `twitterToken` 推特`token`
 - `discordToken` DC`token`
-- `email` 邮箱, 格式为`邮箱:密码`
+- `email` 邮箱, 格式为`邮箱:密码`,不支持`gmail`邮箱
 - `proxy` 代理地址, 格式为`IP:端口:用户名:密码:类型`, 类型默认`http`, 可选填`socks`
 - `survey` 银河问卷答案, 一行一个, 多个答案换行分隔
 - `windowName` 创建指纹浏览器窗口的名称
