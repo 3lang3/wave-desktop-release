@@ -24,6 +24,8 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 - `address` 钱包地址
 - `privateKey` 钱包私钥
 - `twitterToken` 推特 token
+- `discordToken` dc token
+- `email` 邮箱
 - `proxy` 代理地址
 - `survey` 问卷答案, 一行一个, 多个答案换行分隔
   - > 全是选择题的问卷, 答案格式为 `[x,x,x]`, 例如 `[a,a,a]`
