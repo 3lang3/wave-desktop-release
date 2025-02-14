@@ -2,7 +2,7 @@
 
 脚本模块是 wave 的核心功能之一，脚本模块可以集成任意脚本/协议程序，实现千变万化的自动化能力。
 
-![script](/ss/wave-script.png)
+![script](./assets/ss/wave-script.png)
 
 ## 项目说明
 
@@ -22,4 +22,4 @@
 - [可选]设置适当的队列属性
 - 点击运行按钮
 
-![查看任务运行状态](/ss/wave-galxe-running.png)
+![查看任务运行状态](./assets/ss/wave-galxe-running.png)

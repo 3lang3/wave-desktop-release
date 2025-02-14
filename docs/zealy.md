@@ -8,7 +8,7 @@ zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 
 - 自动绑定/更新社交账号
 - 自动交互活动任务并领取奖励
 
-![zealy](/zealy/overview.png)
+![zealy](./assets/zealy/overview.png)
 
 ## 模版文件
 
@@ -34,7 +34,7 @@ zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 
 
 > 例: https://zealy.io/cw/mantisbreakfree/invite/t369XzWPGZuvmqs6h-cez
 
-![zealy detail](/zealy/detail.png)
+![zealy detail](./assets/zealy/detail.png)
 
 ## 注册账号
 
@@ -54,7 +54,7 @@ zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 
 
 左侧详情区域，任务下方可以设置答案，设置后所有账号都会使用这个答案提交
 
-![zealy running](/zealy/custom_anwser.png)
+![zealy running](./assets/zealy/custom_anwser.png)
 
 > 任务有多问题时, 答案用`----`分隔(四个横杠), 例如[这个](https://zealy.io/cw/bevm/questboard/5d1f037c-df13-4bfe-93c2-b765f164a33d/00c4ded6-8a92-4c86-a0cb-17d799e554a3)
 
@@ -65,7 +65,7 @@ zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 
 - 点击任务名称后面的复制按钮,复制任务名称
 - 在模版中新建一列, 填入任务名称, 此列下面填入对应答案即可
 
-![zealy running](/zealy/custom_anwser2.png)
+![zealy running](./assets/zealy/custom_anwser2.png)
 
 ## 一个任务存在多个问题
 
@@ -79,7 +79,7 @@ zealy 登陆/注册需要解码服务, 请在设置页配置 `capSolverKey` 或 
 - `Preview`中的`url`内容就是我们需要的内容
 - 复制`url`内容, 回到软件界面, 在对应任务下方输入框填入`url`即可,或者在模版中新建一列, 填入任务名称, 此列填入对应`url`即可
 
-![zealy running](/zealy/file.jpg)
+![zealy running](./assets/zealy/file.jpg)
 
 ## 填写钱包地址
 

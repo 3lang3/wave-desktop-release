@@ -6,7 +6,7 @@ Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道�
 使用协议操作 Discord 帐户存在被封禁/风控/Token 失效等风险, 请自行评估后使用
 :::
 
-![galxe](/ss/wave-discord-join.png)
+![galxe](./assets/ss/wave-discord-join.png)
 
 ## 使用说明
 
@@ -51,7 +51,7 @@ Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道�
 - `1`代表按钮在第二行
 - `0`代表按钮在第一列
 
-![Discord 验证频道地址](/discord/jointype_button_pos.png)
+![Discord 验证频道地址](./assets/discord/jointype_button_pos.png)
 
 ## 验证类型
 
@@ -59,7 +59,7 @@ Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道�
 
 ## 点击 emoji 按钮
 
-![Discord 验证类型](/discord/jointype_emoji.png)
+![Discord 验证类型](./assets/discord/jointype_emoji.png)
 
 - 最新消息的第 1 个 emoji 按钮, 可以不填写按钮位置(如上图)
 - 第 1 条消息的第 3 个 emoji 按钮, 按钮位置为`0:2`
@@ -69,29 +69,29 @@ Wave 支持自动加入 Discord 群组并支持支持 ✅ 通过大部分频道�
 
 ## 点击普通按钮
 
-![Discord 验证类型](/discord/jointype_button.png)
+![Discord 验证类型](./assets/discord/jointype_button.png)
 
 ## 下拉框选择匹配项
 
 根据文本内容选择匹配项, 例如下拉选择对应的选项
 
-![Discord 验证类型](/discord/jointype_select.png)
+![Discord 验证类型](./assets/discord/jointype_select.png)
 
 ## 弹框输入验证码
 
 点击验证按钮, 然后出现验证码图片, 点击回复弹出输入框
 
-![Discord 验证类型](/discord/jointype_modal.png)
+![Discord 验证类型](./assets/discord/jointype_modal.png)
 
 ## 下拉框选择验证码
 
 点击验证按钮, 然后出现验证码图片和下拉框
 
-![Discord 验证类型](/discord/jointype_captcha_select1.png)
-![Discord 验证类型](/discord/jointype_captcha_select2.png)
+![Discord 验证类型](./assets/discord/jointype_captcha_select1.png)
+![Discord 验证类型](./assets/discord/jointype_captcha_select2.png)
 
 ## 键盘输入验证码
 
 点击验证按钮, 然后出现验证码图片和小键盘
 
-![Discord 验证类型](/discord/jointype_keyboard.png)
+![Discord 验证类型](./assets/discord/jointype_keyboard.png)

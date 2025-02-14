@@ -2,7 +2,7 @@
 
 wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览器, 银河账号绑定, 代币分发等功能, 方便用户快速完成批量化操作。
 
-![script](/ss/wave-tool.png)
+![script](./assets/ss/wave-tool.png)
 
 ## 批量创建指纹浏览器
 
@@ -32,7 +32,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
   - windows: `C:\Users\3lang\Desktop\254768930500`
 
 - 请确保提供的文件夹内有`tdata`文件夹, 且文件夹内有`D877F783D5D3EF8C`文件夹, 大小写不敏感
-  <img src="/tdatadetail.png" width="300" />
+  <img src="./assets/tdatadetail.png" width="300" />
 
 :::info
 绑定了 2FA 的账号，登陆时可能需要密码, 此时路径格式为: `C:\Users\3lang\Desktop\+254768930500,密码`, 英文逗号`,`分隔, 逗号后面是密码
@@ -51,7 +51,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - 支持银河账号绑定 Twitter(需要指纹浏览器已登录推特)
 - 支持银河账号绑定 Discord(需要指纹浏览器已登录 Discord)
 
-![script](/ss/wave-tool.png)
+![script](./assets/ss/wave-tool.png)
 
 ## 银河账号绑定(协议方式)
 
@@ -61,7 +61,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - 支持银河账号绑定`Telegram`(需要模版文件填写`tgTdata`字段), [tdata 说明](#telegram-tdata-说明)
   - 模版支持`tgProxy`字段，设置`telegram`代理, 只支持`socks5`代理, 格式: `IP:端口:用户名:密码:socks5`
 
-![script](/ss/wave-tool.png)
+![script](./assets/ss/wave-tool.png)
 
 ## 银河护照
 
@@ -78,7 +78,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - 点击右上角`导入`按钮, 填入钱包私钥, 一行一个
 - 点击右上角`银河数据同步`按钮, 同步护照状态
 
-![script](/ss/wave-tool-passport.png)
+![script](./assets/ss/wave-tool-passport.png)
 
 #### 护照状态说明
 
@@ -99,7 +99,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - [可选]设置适当的队列属性
 - 点击`运行`按钮
 
-![passport](/ss/wave-tool-passport-ac.png)
+![passport](./assets/ss/wave-tool-passport-ac.png)
 
 ### 获取/导出 KYC 链接
 
@@ -107,7 +107,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - 勾选状态为`未实名`的记录
 - 点击右上角`导出`按钮, 在弹出的对话框中勾选需要导出的字段
 
-![passport](/ss/wave-tool-passport-export.png)
+![passport](./assets/ss/wave-tool-passport-export.png)
 
 ### Claim 护照
 
@@ -134,7 +134,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - [可选]设置适当的队列属性
 - 点击`运行`按钮
 
-![passport](/ss/wave-tool-web3score.png)
+![passport](./assets/ss/wave-tool-web3score.png)
 
 ## 代币分发
 
@@ -151,4 +151,4 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 
 > gas 币: 主网指的是`eth`, bsc 指的是`bnb`
 
-![script](/ss/wave-tool-token.png)
+![script](./assets/ss/wave-tool-token.png)

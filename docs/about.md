@@ -2,7 +2,7 @@
 
 Wave 是专为快速、批量执行自动化脚本而设计的桌面软件, 同时兼具简单易用的特点, 支持`Win`和`MacOS`。
 
-<img src="/icon.png" width="120px" />
+<img src="./assets/icon.png" width="120px" />
 
 ## Wave 社群
 

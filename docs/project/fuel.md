@@ -1,6 +1,6 @@
 # Fuel 测试网交互
 
-![Fuel](/project/fuel/fuel.png)
+![Fuel](../assets/project/fuel/fuel.png)
 
 ## 交互说明
 
@@ -37,7 +37,7 @@
 - `代币地址`: 此处需要分发的是`Gas`币,不需要填写
 - `分发金额`: 默认分发金额, 如果模版文件内填写了`amount`, 则使用模版文件内的金额
 
-![airdrop_config](/project/morphl2/airdrop_config.png)
+![airdrop_config](../assets/project/morphl2/airdrop_config.png)
 
 成功输出日志, 参考下图
-![airdrop_console](/project/morphl2/airdrop_console.png)
+![airdrop_console](../assets/project/morphl2/airdrop_console.png)

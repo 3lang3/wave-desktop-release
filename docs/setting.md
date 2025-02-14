@@ -8,7 +8,7 @@
 - `nocaptcha`密钥: discord 协议相关业务需要此密钥, [购买连接](https://www.nocaptcha.io/register?c=M3KYU5)
 - `yesCaptcha`密钥: 部分 discord 频道验证破解需要此密钥, [购买连接](https://yescaptcha.com/i/of0Uy9)
 
-![设置模块](/ss/setting.png)
+![设置模块](./assets/ss/setting.png)
 
 ## 通知配置
 
@@ -39,4 +39,4 @@
 - 设置 Webhook 的名称、头像，并选择发送消息的频道。
 - 点击`复制 Webhook URL`
 
-![通知模块](/ss/noti.png)
+![通知模块](./assets/ss/noti.png)

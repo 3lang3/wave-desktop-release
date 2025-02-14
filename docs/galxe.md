@@ -4,7 +4,7 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 
 > 支持活动组形式, 例如 https://app.galxe.com/quest/layern/GCNiKth8dZ, 一次完成多个活动
 
-![galxe](/ss/wave-galxe.png)
+![galxe](./assets/ss/wave-galxe.png)
 
 ::: tip 提示
 使用`twitterToken`完成推特强校验任务注意项:
@@ -29,9 +29,9 @@ Wave 银河模块支持自动完成银河活动任务，自动领取奖励, 关�
 - `proxy` 代理地址
 - `survey` 问卷答案, 一行一个, 多个答案换行分隔
   - > 全是选择题的问卷, 答案格式为 `[x,x,x]`, 例如 `[a,a,a]`
-  <img src="/ss/survey_choose.png" width="400px" />
+  <img src="./assets/ss/survey_choose.png" width="400px" />
   模版文件:
-  <img src="/ss/survey_temp.png" width="400px" />
+  <img src="./assets/ss/survey_temp.png" width="400px" />
 - `bindBitcoin` 绑定 btc 地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindBitcoinSignet` 绑定 btc 测试网地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
 - `bindSui` 绑定 sui 地址, 支持`私钥`和`助记词`格式, 执行`通过`交互时自动绑定
@@ -61,7 +61,7 @@ wave 支持以下两种方式完成推特强校验任务
 - [可选]设置适当的队列属性
 - 点击运行按钮
 
-![查看任务运行状态](/ss/wave-galxe-running.png)
+![查看任务运行状态](./assets/ss/wave-galxe-running.png)
 
 ## 验证任务
 

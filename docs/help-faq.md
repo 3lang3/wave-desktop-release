@@ -51,51 +51,51 @@
 
 `socket hang up`请求耗时过长而导致的, 一般是代理网络不稳定导致的
 
-<img src="/faq/socket_hangup.png" width="400" />
+<img src="./assets/faq/socket_hangup.png" width="400" />
 
 ### request timeout xxxxms 错误
 
 `timeout`请求超时, 一般是目标网站响应慢、代理网络不稳定等原因
 
-<img src="/faq/request_timeout.png" width="400" />
+<img src="./assets/faq/request_timeout.png" width="400" />
 
-<img src="/faq/timeout_2.png" width="400" />
+<img src="./assets/faq/timeout_2.png" width="400" />
 
 ### Unexpected xxxx 错误
 
 `Unexpected xxxx is not vail JSON`请求结果格式不正确, 有可能是项目方在中途换了接口, 如果**大面积出现请联系管理员**排查
 
-<img src="/faq/unexpected_json.png" width="400" />
+<img src="./assets/faq/unexpected_json.png" width="400" />
 
 ### Read ECONNRESET 错误
 
 `Read ECONNRESET`请求被目标服务器重置或者客户端超时断开, 一般是网络不稳定导致的, 也有可能是代理`IP`中断链接
 
-<img src="/faq/request_read.png" width="400" />
+<img src="./assets/faq/request_read.png" width="400" />
 
 ### TLS connection 错误
 
 `TLS connection`请确保代理软件已经开启`TUN Mode`或`增强模式`, 也可以尝试切换网络环境或者重启代理软件
 
-<img src="/faq/tls_error.png" width="400" />
+<img src="./assets/faq/tls_error.png" width="400" />
 
 ### Request faild with status code 429
 
 `429`是请求频率过高导致的, 多切换几次`IP`, 降低并发数后再试, 建议`10`以下
 
-<img src="/faq/r_429.png" width="400" />
+<img src="./assets/faq/r_429.png" width="400" />
 
 ### Request faild with status code 403
 
 `403`是请求被拒绝, 一般是代理`IP`被封, 请更换`IP`后再试, 多尝试几次
 
-<img src="/faq/r_403.png" width="400" />
+<img src="./assets/faq/r_403.png" width="400" />
 
 ### Parse Error: Invalid header toker
 
 代理拒绝访问, 请检查代理是否正确, 一般是代理格式错误，或者代理服务那边白名单没正确配置
 
-<img src="/faq/proxy_invalid_header.png" width="400" />
+<img src="./assets/faq/proxy_invalid_header.png" width="400" />
 
 ## 本机代理 🪜 软件设置
 
@@ -105,7 +105,7 @@
 
 ### `Mac`用户请确保`ClashX`已经启动, 并且开启增强模式
 
-<img src="/faq/mac_clash_enhance.png" width="300" />
+<img src="./assets/faq/mac_clash_enhance.png" width="300" />
 
 ### `Clash for Windows`需要打开`TUN Mode`
 
@@ -113,11 +113,11 @@
 
 `Service Mode`旁边地球标志为绿色即为开启成功
 
-<img src="/other/clash_1.png" width="450" />
+<img src="./assets/other/clash_1.png" width="450" />
 
 `Lightweight Mode`开启示意图
 
-<img src="/other/clash_2.png" width="450" />
+<img src="./assets/other/clash_2.png" width="450" />
 
 ## 推特 Discord 风控问题
 
@@ -132,13 +132,13 @@
 
 - 部分`Mac`用户安装时可能会遇到无法打开的问题, 这是因为`Mac`系统对于未知来源的应用有安全限制, 需要前往设置手动打开
 
-<img src="/faq/mac_install_alert.png" width="200" />
+<img src="./assets/faq/mac_install_alert.png" width="200" />
 
 ### Windows 用户提示
 
 - `Windows`系统对于装机量少的软件有未知来源的应用有安全限制, 直接点击运行即可
 
-<img src="/faq/win_install_alert.png" width="320" />
+<img src="./assets/faq/win_install_alert.png" width="320" />
 
 ## 软件卸载
 

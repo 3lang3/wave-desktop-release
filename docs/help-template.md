@@ -4,7 +4,7 @@
 
 下载的模版文件, 第一行内容为模版字段说明, **请删除后使用**
 
-![模版文件](/ss/wave-tempfile.png)
+![模版文件](./assets/ss/wave-tempfile.png)
 
 ## 通用字段说明
 

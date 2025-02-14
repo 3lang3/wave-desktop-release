@@ -9,4 +9,4 @@
 - 降低社交账号风控风险
 - 隐藏真实IP
 
-![proxies](/ss/wave-proxies.png)
+![proxies](./assets/ss/wave-proxies.png)

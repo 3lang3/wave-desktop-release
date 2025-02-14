@@ -9,10 +9,10 @@
 
 有可用新版本发布时, 软件左下角会显示**版本更新按钮**, 点击按钮, 会显示版本更新界面, 点击**更新**按钮即可完成更新
 
-![frame](/ss/wave-upgrade-frame.png)
+![frame](./assets/ss/wave-upgrade-frame.png)
 
 ## 项目插件更新
 
 项目插件更新是**热更新**形式, 软件**每次启动**时会动态检查项目插件是否有更新, 有更新时会展示加载 UI 界面自动下载并加载, 无需安装或重启软件
 
-![frame](/ss/wave-upgrade-plugin.png)
+![frame](./assets/ss/wave-upgrade-plugin.png)

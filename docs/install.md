@@ -37,4 +37,4 @@
 
 > 首次登陆会绑定设备，解绑设备请联系管理员
 
-![login](/ss/wave-login.png)
+![login](./assets/ss/wave-login.png)

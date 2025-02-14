@@ -1,6 +1,6 @@
 # Morphl2 测试网交互
 
-![Morphl2测试网](/project/morphl2/morphl2.png)
+![Morphl2测试网](../assets/project/morphl2/morphl2.png)
 
 ## 任务说明
 
@@ -38,7 +38,7 @@ QuickNode 领水服务不稳定,批量前先单号测试
 - `代币地址`: 此处需要分发的是`Gas`币, 
 - `分发金额`: 默认分发金额, 如果模版文件内填写了`amount`, 则使用模版文件内的金额
 
-![Initia测试网](/project/morphl2/airdrop_config.png)
+![Initia测试网](../assets/project/morphl2/airdrop_config.png)
 
 成功输出日志, 参考下图
-![Initia测试网](/project/morphl2/airdrop_console.png)
+![Initia测试网](../assets/project/morphl2/airdrop_console.png)

@@ -8,11 +8,11 @@
 
 ### AdsPower 设置
 
-<img src="/other/ads_proxy_setting.png" />
+<img src="./assets/other/ads_proxy_setting.png" />
 
 ### BitBrowser 设置
 
-<img src="/other/bit_proxy_setting.png" />
+<img src="./assets/other/bit_proxy_setting.png" />
 
 ## 自定义动作
 
@@ -23,23 +23,23 @@
 - 支持`discord`消息发送
 - 支持提取`twitter`、`discord` token
 
-![script](/ss/wave-browser-custom.png)
+![script](./assets/ss/wave-browser-custom.png)
 
-![script](/ss/temp.png)
+![script](./assets/ss/temp.png)
 
 ## 银河任务
 
 - 自动解析动作, 无需手动填写
 - 支持银河强校验推特任务
 
-![script](/ss/wave-browser-galxe.png)
+![script](./assets/ss/wave-browser-galxe.png)
 
 ## 动作模版
 
 - 推特日常养号(随机执行评论, 点赞, 转发, 关注, 发推文)
 - 推特解风控(只支持被风控的账号, 不支持解封禁)
 
-![script](/ss/wave-browser-temp.png)
+![script](./assets/ss/wave-browser-temp.png)
 
 ### 运行步骤
 
