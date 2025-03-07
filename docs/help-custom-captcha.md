@@ -54,6 +54,14 @@
 | websiteKey | string | 是   | 目标网站的 `hcaptcha key` |
 | proxy      | string | 否   | 代理                      |
 
+#### vercel盾参数
+
+| 参数名     | 类型   | 必填 | 说明     |
+| ---------- | ------ | ---- | -------- |
+| type       | string | 是   | `vercel`   |
+| websiteUrl | string | 是   | 目标网站 |
+| proxy      | string | 是   | 代理     |
+
 ### 接口返回格式
 
 > 请注意：`code` 为 `200` 时表示解码成功，其他情况均为失败
