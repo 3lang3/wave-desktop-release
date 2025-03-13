@@ -42,7 +42,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 `telegram`封号验证，尽量固定`代理ip`, `tg`只支持`socks5`代理
 
 - 指纹浏览器场景中使用模版中设置的`proxy`字段, 软件会尝试将非`socks5`代理转换为`socks5`代理使用，如果服务商不支持则会链接报错
-- 脚本/协议场景中使用模版中的`tgProxy`字段
+- 脚本/协议场景中使用模版中的`tgproxy`字段
 
 :::
 
@@ -59,7 +59,7 @@ wave 工具模块提供了各种各样的工具, 例如批量创建指纹浏览�
 - 支持银河账号绑定`Twitter`(需要模版文件填写`twitterToken`字段)
 - 支持银河账号绑定`Discord`(需要模版文件填写`discordToken`字段)
 - 支持银河账号绑定`Telegram`(需要模版文件填写`tgTdata`字段), [tdata 说明](#telegram-tdata-说明)
-  - 模版支持`tgProxy`字段，设置`telegram`代理, 只支持`socks5`代理, 格式: `IP:端口:用户名:密码:socks5`
+  - 模版支持`tgproxy`字段，设置`telegram`代理, 只支持`socks5`代理, 格式: `IP:端口:用户名:密码:socks5`
 
 ![script](./assets/ss/wave-tool.png)
 
