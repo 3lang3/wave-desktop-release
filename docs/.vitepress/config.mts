@@ -32,7 +32,9 @@ export default defineConfig({
         text: "软件简介",
         items: [
           { text: "什么是Wave?", link: "/about" },
-          { text: "安装使用", link: "/install" },
+          { text: "安装", link: "/install" },
+          { text: "基础使用", link: "/start" },
+          { text: "代理设置", link: "/proxies" },
         ],
       },
       {
@@ -44,7 +46,6 @@ export default defineConfig({
           { text: "工具模块", link: "/tool" },
           { text: "zealy模块", link: "/zealy" },
           { text: "discord加群", link: "/discord-join" },
-          { text: "代理管理", link: "/proxies" },
           { text: "设置", link: "/setting" },
         ],
       },
