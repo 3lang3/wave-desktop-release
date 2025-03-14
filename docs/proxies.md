@@ -11,6 +11,7 @@
 - `ip:port:user:pass`
 - `ip:port:user:pass:socks5`
 - `ip:port:user:pass:http`
+- `http`开头的api地址(api获取代理)
 
 ![img](./assets/ss/proxy_1.png)
 
