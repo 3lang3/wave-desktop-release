@@ -46,6 +46,7 @@ export default defineConfig({
           { text: "工具模块", link: "/tool" },
           { text: "zealy模块", link: "/zealy" },
           { text: "discord加群", link: "/discord-join" },
+          { text: "万能上链器", link: "/evm-onchain" },
           { text: "设置", link: "/setting" },
         ],
       },
