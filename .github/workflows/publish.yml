@@ -1,0 +1,28 @@
+name: 🚀 Upload to Cloudflare R2
+on:
+  release:
+    types: [published]
+
+# 将附件中的文件上传到 Cloudflare R2
+jobs:
+  published:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Release Assets
+        uses: dsaltares/fetch-gh-release-asset@master
+        with:
+          regex: true
+          file: '/*'
+          target: 'desktop-updates/' # 下载到的目标目录
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Upload to Cloudflare R2
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: ./desktop-updates
+          destination-dir: ./desktop-updates
