@@ -47,6 +47,7 @@ export default defineConfig({
           { text: "zealy模块", link: "/zealy" },
           { text: "discord加群", link: "/discord-join" },
           { text: "万能上链器", link: "/evm-onchain" },
+          { text: "NFT批量转账", link: "/nft-airdrop" },
           { text: "设置", link: "/setting" },
         ],
       },
