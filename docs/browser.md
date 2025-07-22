@@ -1,18 +1,6 @@
 # 指纹浏览器模块
 
-使用 wave 的指纹浏览器模块, 可以轻松完成推特, Discord 等繁琐重复的操作, 还能一键进行推特日常养号, 推特解风控等操作, 支持 AdsPower 和比特浏览器
-
-## 准备工作
-
-确保对应指纹浏览器设置正确, 并且已经打开
-
-### AdsPower 设置
-
-<img src="./assets/other/ads_proxy_setting.png" />
-
-### BitBrowser 设置
-
-<img src="./assets/other/bit_proxy_setting.png" />
+使用 wave 的指纹浏览器模块, 可以轻松完成推特, Discord 等繁琐重复的操作, 还能一键进行推特日常养号, 支持 AdsPower 和比特浏览器
 
 ## 自定义动作
 
@@ -23,30 +11,43 @@
 - 支持`discord`消息发送
 - 支持提取`twitter`、`discord` token
 
-![script](./assets/ss/wave-browser-custom.png)
+![script](./assets/ss/ss_zhiwen.png)
 
-![script](./assets/ss/temp.png)
+### 获取指纹导入文件
 
-## 银河任务
+部分交互需要用户提供额外信息(例:发推,dc 发言),在指纹浏览器导出的文件中添加对应列内容后在此上传
 
-- 自动解析动作, 无需手动填写
-- 支持银河强校验推特任务
+#### ADS 浏览器导出窗口
 
-![script](./assets/ss/wave-browser-galxe.png)
+![script](./assets/ss/ads_export.png)
 
-## 动作模版
+#### 比特浏览器导出窗口
 
-- 推特日常养号(随机执行评论, 点赞, 转发, 关注, 发推文)
-- 推特解风控(只支持被风控的账号, 不支持解封禁)
+> 注意: 比特浏览器导出时,第二行为说明内容, 记得删除后再在`wave`中使用
 
-![script](./assets/ss/wave-browser-temp.png)
+![script](./assets/ss/bit_export.png)
 
-### 运行步骤
+#### 指纹文件自定义字段说明
 
-- 选择对应操作动作或模版
-- [可选]导入自定义文件(部分场景需要)
-- 右侧表单选择浏览器品牌(**确保已打开对应指纹浏览器**)
-- 选择浏览器分组
-- [可选]导入自定义字段文件
-- [可选]设置适当的队列属性
-- 点击运行按钮
+> 在导出的指纹文件中, 可以添加以下自定义字段, 以便在`wave`中使用
+
+- `mnemonic`: 助记词,登录钱包需要
+- `twitterToken`: 推特登录信息,支持`token`和`账号:密码:2FA`两种格式
+- `twitterContent`: 进行发推或者回复推文时，自定义推文内容
+- `twitterName`: 进行推特改名交互时，自定义推特名称
+- `discordToken`: dc 登录信息,支持`token`和`账号:密码:2FA`两种格式
+- `discordContent`: 进行 dc 频道发言时，自定义发言内容
+
+### 调整指纹浏览器 API 设置
+
+AdsPower API 获取
+
+![script](./assets/other/ads_proxy_setting.png)
+
+BitBrowser API 获取
+
+![script](./assets/other/bit_proxy_setting.png)
+
+在 Wave 中设置指纹浏览器 API
+
+![script](./assets/ss/zhiwen_setting.png)
