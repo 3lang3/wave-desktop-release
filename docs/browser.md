@@ -27,6 +27,11 @@
 
 ![script](./assets/ss/bit_export.png)
 
+#### Hubstudio 浏览器导出窗口
+
+> 注意: Hubstudio 浏览器导出时,删除第一行的说明内容!
+![script](./assets/ss/hubstudio_export.png)
+
 #### 指纹文件自定义字段说明
 
 > 在导出的指纹文件中, 可以添加以下自定义字段, 以便在`wave`中使用
