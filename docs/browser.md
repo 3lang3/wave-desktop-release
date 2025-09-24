@@ -30,7 +30,6 @@
 #### Hubstudio 浏览器导出窗口
 
 > 注意: Hubstudio 浏览器导出时,删除第一行的说明内容!
-![script](./assets/ss/hubstudio_export.png)
 
 #### 指纹文件自定义字段说明
 
